@@ -1,0 +1,181 @@
+{
+  "nodes": [
+    {
+      "id": "header",
+      "type": "text",
+      "text": "> [!abstract] 📋 PLANTILLA 07: REFINAMIENTO DE BACKLOG ASÍNCRONO\n> **Objetivo:** Estimar complejidad y pulir historias de usuario sin perder 2 horas de sprint grooming en videollamada.\n",
+      "x": -500,
+      "y": -600,
+      "width": 1810,
+      "height": 140,
+      "color": "6"
+    },
+    {
+      "id": "anchor",
+      "type": "text",
+      "text": "> [!danger] 🎫 HISTORIA DE USUARIO / TICKET PRINCIPAL\n> *Como [usuario], quiero [acción] para [beneficio esperado].*\n> \n> **Criterios de Aceptación Preliminares:**\n> - [ ] Dado que..., cuando..., entonces...\n> - [ ] Mockups adjuntos en Figma: [Enlace]\n> \n> *Product Owner: @Nombre*\n",
+      "x": -460,
+      "y": -400,
+      "width": 1730,
+      "height": 280,
+      "color": "1"
+    },
+    {
+      "id": "group-context-Plantilla_07_Refinamiento_Backlog_Asincrono.canvas",
+      "type": "group",
+      "label": "🎯 FASE 0: CONTEXTO Y PROBLEMA ANCLA",
+      "x": -500,
+      "y": -460,
+      "width": 1810,
+      "height": 380,
+      "color": "1"
+    },
+    {
+      "id": "middle-section-banner",
+      "type": "text",
+      "text": "**🧐 AUDITORÍA TÉCNICA Y DE CALIDAD (Horas 0-24)\n*Devs y QA analizan el ticket en solitario y plantean vacíos o dudas de borde.***",
+      "x": -460,
+      "y": -10,
+      "width": 1300,
+      "height": 70,
+      "color": "6"
+    },
+    {
+      "id": "edge-cases",
+      "type": "text",
+      "text": "> [!warning] ⚠️ Casos Borde y Dudas UX\n> - ¿Qué ocurre si el usuario pierde conexión a mitad del pago?\n> - ¿Se permite cancelar una vez emitido el recibo?\n> - ¿Qué mensaje se muestra si la tarjeta no tiene fondos?\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": -450,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "2"
+    },
+    {
+      "id": "tech-gotchas",
+      "type": "text",
+      "text": "> [!example] ⚙️ Complejidad Oculta Dev\n> - La tabla de transacciones requiere migración de esquema\n> - Necesitamos un webhook asíncrono para no colgar la UI\n> - Dependencia de librería externa no actualizada\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": -20,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "3"
+    },
+    {
+      "id": "sizing-vote",
+      "type": "text",
+      "text": "> [!success] 🔢 Estimación Asíncrona (Puntos de Historia)\n> - Dev A: **5 pts**\n> - Dev B: **3 pts**\n> - Dev C: **5 pts**\n> \n> *Consenso rápido: 5 pts debido a la migración de base de datos.*\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": 410,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "4"
+    },
+    {
+      "id": "bottom-section-banner",
+      "type": "text",
+      "text": "**🚀 CRITERIOS DEFINITIVOS (Definition of Ready - DoR)\n*El ticket queda 100% listo para ser arrastrado al sprint activo.***",
+      "x": -460,
+      "y": 530,
+      "width": 1300,
+      "height": 70,
+      "color": "6"
+    },
+    {
+      "id": "dor-ready",
+      "type": "text",
+      "text": "> [!todo] ✅ Ticket Aprobado para Desarrollo\n> - [x] Criterios de aceptación blindados\n> - [x] Mockups y textos validados\n> - [x] Puntos acordados: **5**\n> - [x] Sin bloqueos externos pendientes\n",
+      "x": -175,
+      "y": 600,
+      "width": 750,
+      "height": 280,
+      "color": "5"
+    },
+    {
+      "id": "group-middle-Plantilla_07_Refinamiento_Backlog_Asincrono.canvas",
+      "type": "group",
+      "label": "🧠 FASE 1: GRAPH OF THOUGHTS (MULTIVERSO DE HIPÓTESIS)",
+      "x": -500,
+      "y": -60,
+      "width": 1810,
+      "height": 530,
+      "color": "3"
+    },
+    {
+      "id": "group-bottom-Plantilla_07_Refinamiento_Backlog_Asincrono.canvas",
+      "type": "group",
+      "label": "✅ FASE 2: CONVERGENCIA, COMPROMISO Y ACCIÓN",
+      "x": -500,
+      "y": 480,
+      "width": 1810,
+      "height": 440,
+      "color": "5"
+    },
+    {
+      "id": "oracle-Plantilla_07_Refinamiento_Backlog_Asincrono.canvas",
+      "type": "text",
+      "text": "> [!bug] ⚔️ EL COLISEO ADVERSARIAL (Dialéctica IA)\n> **Instrucción para el LLM:**\n> 1. Analiza las hipótesis generadas en este lienzo.\n> 2. Crea un 'Agente Antítesis' para destruir la hipótesis más popular.\n> 3. Devuelve únicamente la 'Síntesis': la verdad irrompible que sobrevive al debate.",
+      "x": 860,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "1"
+    },
+    {
+      "id": "hash-Plantilla_07_Refinamiento_Backlog_Asincrono.canvas",
+      "type": "text",
+      "text": "> [!quote] 🌌 SÍNTESIS GESTALT Y COMPRESIÓN\n> **Instrucción para el LLM:**\n> 1. Observa el patrón global de este lienzo.\n> 2. Mapea este problema corporativo a un sistema físico o biológico (Gestalt).\n> 3. Devuelve la solución topológica abstracta en un Hash Ejecutivo de 50 palabras.",
+      "x": 615,
+      "y": 600,
+      "width": 450,
+      "height": 280,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-1",
+      "fromNode": "edge-cases",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Desafía",
+      "color": "6"
+    },
+    {
+      "id": "edge-2",
+      "fromNode": "tech-gotchas",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Condiciona",
+      "color": "6"
+    },
+    {
+      "id": "edge-3",
+      "fromNode": "sizing-vote",
+      "fromSide": "bottom",
+      "toNode": "dor-ready",
+      "toSide": "top",
+      "label": "Fija puntos en",
+      "color": "6"
+    },
+    {
+      "id": "edge-4",
+      "fromNode": "anchor",
+      "fromSide": "bottom",
+      "toNode": "dor-ready",
+      "toSide": "top",
+      "label": "Se promueve a",
+      "color": "6"
+    },
+    {
+      "id": "edge-tension-Plantilla_07_Refinamiento_Backlog_Asincrono.canvas",
+      "fromNode": "oracle-Plantilla_07_Refinamiento_Backlog_Asincrono.canvas",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Fricción Excluyente",
+      "color": "1"
+    }
+  ]
+}

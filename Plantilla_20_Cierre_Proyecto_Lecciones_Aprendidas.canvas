@@ -1,0 +1,145 @@
+{
+  "nodes": [
+    {
+      "id": "header",
+      "type": "text",
+      "text": "# 🏁 PLANTILLA 20: CIERRE DE PROYECTO Y LECCIONES APRENDIDAS\n**Objetivo:** Archivar el conocimiento del proyecto, reconocer el impacto real y documentar qué nunca volver a repetir.",
+      "x": -450,
+      "y": -500,
+      "width": 1790,
+      "height": 130,
+      "color": "6"
+    },
+    {
+      "id": "anchor",
+      "type": "text",
+      "text": "## 🏆 REPASO DE MISIÓN Y RESULTADOS FINALES\n*¿Cumplió el proyecto la promesa con la que nació en la Plantilla 01?*\n\n- **Objetivo Inicial:** Reducir churn en onboarding un 20%\n- **Resultado Medido a 30 días:** Reducción real del 24.5% 🎉\n- **Presupuesto consumido:** 92% de lo previsto\n\n*Líder de Proyecto: @Nombre*",
+      "x": -450,
+      "y": -330,
+      "width": 1710,
+      "height": 260,
+      "color": "6"
+    },
+    {
+      "id": "middle-section-banner",
+      "type": "text",
+      "text": "### 💎 DESTILADO DE SABIDURÍA COLECTIVA (Horas 0-48)\n*Para que el próximo equipo no empiece desde cero ni cometa las mismas torpezas.*",
+      "x": -450,
+      "y": -30,
+      "width": 1300,
+      "height": 70
+    },
+    {
+      "id": "closure-worked",
+      "type": "text",
+      "text": "### 🌟 Lo que funcionó de maravilla\n- Trabajar con prototipos interactivos antes de programar ahorró semanas de retrabajo.\n- Los canales asíncronos en Obsidian evitaron al menos 40 horas de reuniones inútiles.\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": -450,
+      "y": 70,
+      "width": 390,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "closure-failed",
+      "type": "text",
+      "text": "### 💣 Lo que subestimamos gravemente\n- La complejidad legal de la pasarela de pagos nos frenó 3 semanas.\n- Faltó involucrar al equipo de soporte desde el día 1.\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": -20,
+      "y": 70,
+      "width": 390,
+      "height": 300,
+      "color": "1"
+    },
+    {
+      "id": "closure-handover",
+      "type": "text",
+      "text": "### 📦 Traspaso a Mantenimiento (Run & Keep)\n- **Repositorio y Documentación:** `[[Docs_Proyecto_Alfa]]`\n- **Alertas configuradas en:** PagerDuty & Datadog\n- **Equipo a cargo del soporte diario:** Squad de Mantenimiento\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": 410,
+      "y": 70,
+      "width": 390,
+      "height": 300,
+      "color": "3"
+    },
+    {
+      "id": "bottom-section-banner",
+      "type": "text",
+      "text": "### 📜 DECLARACIÓN DE CIERRE Y AGRADECIMIENTOS\n*El proyecto se declara oficialmente COMPLETADO y archivado con honores.*",
+      "x": -450,
+      "y": 410,
+      "width": 1300,
+      "height": 70
+    },
+    {
+      "id": "final-seal",
+      "type": "text",
+      "text": "### 🎓 Sello de Finalización\nProyecto archivado con éxito. Lecciones añadidas a la base de conocimiento general.\n\n*Firmado por todo el equipo impulsor.*",
+      "x": -175,
+      "y": 510,
+      "width": 750,
+      "height": 240,
+      "color": "5"
+    },
+    {
+      "id": "oracle-Plantilla_20_Cierre_Proyecto_Lecciones_Aprendidas.canvas",
+      "type": "text",
+      "text": "> [!bug] ⚔️ EL COLISEO ADVERSARIAL (Dialéctica IA)\n> **Instrucción para el LLM:**\n> 1. Analiza las hipótesis generadas en este lienzo.\n> 2. Crea un 'Agente Antítesis' para destruir la hipótesis más popular.\n> 3. Devuelve únicamente la 'Síntesis': la verdad irrompible que sobrevive al debate.",
+      "x": 840,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "1"
+    },
+    {
+      "id": "hash-Plantilla_20_Cierre_Proyecto_Lecciones_Aprendidas.canvas",
+      "type": "text",
+      "text": "> [!quote] 🌌 SÍNTESIS GESTALT Y COMPRESIÓN\n> **Instrucción para el LLM:**\n> 1. Observa el patrón global de este lienzo.\n> 2. Mapea este problema corporativo a un sistema físico o biológico (Gestalt).\n> 3. Devuelve la solución topológica abstracta en un Hash Ejecutivo de 50 palabras.",
+      "x": -460,
+      "y": 600,
+      "width": 450,
+      "height": 280,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-1",
+      "fromNode": "closure-worked",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Evidencia"
+    },
+    {
+      "id": "edge-2",
+      "fromNode": "closure-failed",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Lección de"
+    },
+    {
+      "id": "edge-3",
+      "fromNode": "closure-handover",
+      "fromSide": "bottom",
+      "toNode": "final-seal",
+      "toSide": "top",
+      "label": "Habilita"
+    },
+    {
+      "id": "edge-4",
+      "fromNode": "anchor",
+      "fromSide": "bottom",
+      "toNode": "final-seal",
+      "toSide": "top",
+      "label": "Concluye en"
+    },
+    {
+      "id": "edge-tension-Plantilla_20_Cierre_Proyecto_Lecciones_Aprendidas.canvas",
+      "fromNode": "oracle-Plantilla_20_Cierre_Proyecto_Lecciones_Aprendidas.canvas",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Fricción Excluyente",
+      "color": "1"
+    }
+  ]
+}

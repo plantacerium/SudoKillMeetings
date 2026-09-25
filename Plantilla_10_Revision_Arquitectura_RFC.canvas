@@ -1,0 +1,181 @@
+{
+  "nodes": [
+    {
+      "id": "header",
+      "type": "text",
+      "text": "> [!abstract] 📐 PLANTILLA 10: REVISIÓN DE ARQUITECTURA (RFC ASÍNCRONO)\n> **Objetivo:** Consensuar cambios mayores de diseño de software y base de datos con un Architecture Decision Record (ADR).\n",
+      "x": -500,
+      "y": -600,
+      "width": 1810,
+      "height": 140,
+      "color": "6"
+    },
+    {
+      "id": "anchor",
+      "type": "text",
+      "text": "> [!danger] 🏗️ PROPUESTA ARQUITECTÓNICA (RFC)\n> *¿Qué problema de escalabilidad, rendimiento o desacoplamiento buscamos resolver?*\n> \n> **Resumen del Cambio:**\n> - Migrar el servicio de notificaciones monolítico a arquitectura basada en eventos (Kafka/RabbitMQ).\n> \n> *Autor del RFC: @Nombre*\n",
+      "x": -460,
+      "y": -400,
+      "width": 1730,
+      "height": 280,
+      "color": "1"
+    },
+    {
+      "id": "group-context-Plantilla_10_Revision_Arquitectura_RFC.canvas",
+      "type": "group",
+      "label": "🎯 FASE 0: CONTEXTO Y PROBLEMA ANCLA",
+      "x": -500,
+      "y": -460,
+      "width": 1810,
+      "height": 380,
+      "color": "1"
+    },
+    {
+      "id": "middle-section-banner",
+      "type": "text",
+      "text": "**⚖️ COMPARATIVA DE OPCIONES TECNOLÓGICAS (Horas 0-48)\n*Los arquitectos y seniors evalúan pros, contras y costes ocultos.***",
+      "x": -460,
+      "y": -10,
+      "width": 1300,
+      "height": 70,
+      "color": "6"
+    },
+    {
+      "id": "arch-opt-a",
+      "type": "text",
+      "text": "> [!example] 🅰️ Opción A: Apache Kafka\n> - **Pros:** Escalabilidad descomunal, replay de eventos nativo.\n> - **Contras:** Muy costoso de mantener, curva de aprendizaje empinada para el equipo.\n> - **Coste mensual estimado:** $450 USD\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": -450,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "3"
+    },
+    {
+      "id": "arch-opt-b",
+      "type": "text",
+      "text": "> [!success] 🅱️ Opción B: Redis Streams / SQS\n> - **Pros:** Ya usamos Redis, cero infraestructura extra, simplicidad.\n> - **Contras:** Menor retención histórica de eventos.\n> - **Coste mensual estimado:** $30 USD\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": -20,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "4"
+    },
+    {
+      "id": "arch-review-notes",
+      "type": "text",
+      "text": "> [!warning] 🧠 Comentarios del Equipo Técnico\n> - @DevLead: 'Kafka es sobredimensionado para nuestros 2,000 eventos/min'.\n> - @SecOps: 'Redis gestionado en AWS cumple con todos nuestros requisitos de seguridad'.\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": 410,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "2"
+    },
+    {
+      "id": "bottom-section-banner",
+      "type": "text",
+      "text": "**📜 REGISTRO DE DECISIÓN DE ARQUITECTURA (ADR Definitivo)\n*La decisión queda grabada en piedra para que nadie pregunte 'por qué se hizo así' dentro de 2 años.***",
+      "x": -460,
+      "y": 530,
+      "width": 1300,
+      "height": 70,
+      "color": "6"
+    },
+    {
+      "id": "adr-final",
+      "type": "text",
+      "text": "> [!todo] 🏆 Decisión Final Aprobada\n> - **Opción Elegida:** Opción B (Redis Streams)\n> - **Consecuencia Aceptada:** Si pasamos de 50k eventos/segundo evaluaremos migración en 2028.\n> \n> *Aprobado por consenso: @CTO, @Lead1, @Lead2*\n",
+      "x": -175,
+      "y": 600,
+      "width": 750,
+      "height": 280,
+      "color": "5"
+    },
+    {
+      "id": "group-middle-Plantilla_10_Revision_Arquitectura_RFC.canvas",
+      "type": "group",
+      "label": "🧠 FASE 1: GRAPH OF THOUGHTS (MULTIVERSO DE HIPÓTESIS)",
+      "x": -500,
+      "y": -60,
+      "width": 1810,
+      "height": 530,
+      "color": "3"
+    },
+    {
+      "id": "group-bottom-Plantilla_10_Revision_Arquitectura_RFC.canvas",
+      "type": "group",
+      "label": "✅ FASE 2: CONVERGENCIA, COMPROMISO Y ACCIÓN",
+      "x": -500,
+      "y": 480,
+      "width": 1810,
+      "height": 440,
+      "color": "5"
+    },
+    {
+      "id": "oracle-Plantilla_10_Revision_Arquitectura_RFC.canvas",
+      "type": "text",
+      "text": "> [!bug] ⚔️ EL COLISEO ADVERSARIAL (Dialéctica IA)\n> **Instrucción para el LLM:**\n> 1. Analiza las hipótesis generadas en este lienzo.\n> 2. Crea un 'Agente Antítesis' para destruir la hipótesis más popular.\n> 3. Devuelve únicamente la 'Síntesis': la verdad irrompible que sobrevive al debate.",
+      "x": 860,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "1"
+    },
+    {
+      "id": "hash-Plantilla_10_Revision_Arquitectura_RFC.canvas",
+      "type": "text",
+      "text": "> [!quote] 🌌 SÍNTESIS GESTALT Y COMPRESIÓN\n> **Instrucción para el LLM:**\n> 1. Observa el patrón global de este lienzo.\n> 2. Mapea este problema corporativo a un sistema físico o biológico (Gestalt).\n> 3. Devuelve la solución topológica abstracta en un Hash Ejecutivo de 50 palabras.",
+      "x": 615,
+      "y": 600,
+      "width": 450,
+      "height": 280,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-1",
+      "fromNode": "arch-opt-a",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Alternativa para",
+      "color": "6"
+    },
+    {
+      "id": "edge-2",
+      "fromNode": "arch-opt-b",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Alternativa para",
+      "color": "6"
+    },
+    {
+      "id": "edge-3",
+      "fromNode": "arch-review-notes",
+      "fromSide": "bottom",
+      "toNode": "adr-final",
+      "toSide": "top",
+      "label": "Justifica",
+      "color": "6"
+    },
+    {
+      "id": "edge-4",
+      "fromNode": "arch-opt-b",
+      "fromSide": "bottom",
+      "toNode": "adr-final",
+      "toSide": "top",
+      "label": "Seleccionada como",
+      "color": "6"
+    },
+    {
+      "id": "edge-tension-Plantilla_10_Revision_Arquitectura_RFC.canvas",
+      "fromNode": "oracle-Plantilla_10_Revision_Arquitectura_RFC.canvas",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Fricción Excluyente",
+      "color": "1"
+    }
+  ]
+}

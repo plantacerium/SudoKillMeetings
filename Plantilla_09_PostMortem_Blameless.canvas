@@ -1,0 +1,238 @@
+{
+  "nodes": [
+    {
+      "id": "header",
+      "type": "text",
+      "text": "> [!abstract] 🔥 PLANTILLA 09: POST-MORTEM SIN CULPAS (INCIDENT REVIEW)\n> **Objetivo:** Analizar caídas del sistema y errores graves buscando fallos en procesos, no culpables personales.\n",
+      "x": -500,
+      "y": -600,
+      "width": 2670,
+      "height": 140,
+      "color": "6"
+    },
+    {
+      "id": "anchor",
+      "type": "text",
+      "text": "> [!danger] 💥 EL INCIDENTE (Impacto y Duración)\n> *Resumen cuantificable del fallo en producción.*\n> \n> - **Severidad:** P1 (Caída total) / P2 (Degradación parcial)\n> - **Tiempo fuera de servicio (Downtime):** 1h 42m\n> - **Usuarios afectados:** ~12,400 transacciones\n> - **Pérdida financiera estimada:** $4,500 USD\n> \n> *Incident Commander: @Nombre*\n",
+      "x": -460,
+      "y": -400,
+      "width": 2590,
+      "height": 280,
+      "color": "1"
+    },
+    {
+      "id": "group-context-Plantilla_09_PostMortem_Blameless.canvas",
+      "type": "group",
+      "label": "🎯 FASE 0: CONTEXTO Y PROBLEMA ANCLA",
+      "x": -500,
+      "y": -460,
+      "width": 2670,
+      "height": 380,
+      "color": "1"
+    },
+    {
+      "id": "middle-section-banner",
+      "type": "text",
+      "text": "**🔍 LOS 5 PORQUÉS (Análisis de Causa Raíz Visual)\n*Conecta secuencialmente las causas con flechas hasta llegar al fallo de proceso.***",
+      "x": -460,
+      "y": -10,
+      "width": 1300,
+      "height": 70,
+      "color": "6"
+    },
+    {
+      "id": "why-1",
+      "type": "text",
+      "text": "> [!warning] 1️⃣ ¿Por qué cayó la web?\n> El servidor de base de datos agotó las conexiones disponibles y denegó peticiones.\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": -450,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "2"
+    },
+    {
+      "id": "why-2",
+      "type": "text",
+      "text": "> [!warning] 2️⃣ ¿Por qué se agotaron las conexiones?\n> Un script de generación de reportes bloqueó tablas durante 25 minutos.\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": -20,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "2"
+    },
+    {
+      "id": "why-3",
+      "type": "text",
+      "text": "> [!example] 3️⃣ ¿Por qué se ejecutó en la BD primaria?\n> No existe una réplica de lectura para consultas analíticas pesadas.\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": 410,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "3"
+    },
+    {
+      "id": "why-4",
+      "type": "text",
+      "text": "> [!example] 4️⃣ ¿Por qué no había réplica de lectura?\n> Se eliminó en la migración pasada para recortar costes y nunca se reconfiguró.\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": 840,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "3"
+    },
+    {
+      "id": "why-5",
+      "type": "text",
+      "text": "> [!danger] 5️⃣ Causa Raíz Sistémica\n> Falta de alertas automáticas sobre saturación de connection-pool y ausencia de sandbox analítico.\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": 1270,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "1"
+    },
+    {
+      "id": "bottom-section-banner",
+      "type": "text",
+      "text": "**🛡️ ACCIONES PREVENTIVAS BLINDADAS (Nunca más)\n*Prohibido 'recomendar tener cuidado'. Solo cambios en código, alertas o infra.***",
+      "x": -460,
+      "y": 530,
+      "width": 1300,
+      "height": 70,
+      "color": "6"
+    },
+    {
+      "id": "postmortem-action-1",
+      "type": "text",
+      "text": "> [!todo] 🛠️ Acción Técnica 1\n> Configurar réplica de lectura (Read-Replica) exclusiva para consultas pesadas.\n> \n> *Líder: @Infra | Deadline: Viernes*\n",
+      "x": -260,
+      "y": 600,
+      "width": 500,
+      "height": 280,
+      "color": "5"
+    },
+    {
+      "id": "postmortem-action-2",
+      "type": "text",
+      "text": "> [!todo] 🛠️ Acción Técnica 2\n> Añadir alarma en Datadog/Cloudwatch al 80% de pool de conexiones con auto-kill de queries >60s.\n> \n> *Líder: @Backend | Deadline: Lunes*\n",
+      "x": 300,
+      "y": 600,
+      "width": 500,
+      "height": 280,
+      "color": "5"
+    },
+    {
+      "id": "group-middle-Plantilla_09_PostMortem_Blameless.canvas",
+      "type": "group",
+      "label": "🧠 FASE 1: GRAPH OF THOUGHTS (MULTIVERSO DE HIPÓTESIS)",
+      "x": -500,
+      "y": -60,
+      "width": 2670,
+      "height": 530,
+      "color": "3"
+    },
+    {
+      "id": "group-bottom-Plantilla_09_PostMortem_Blameless.canvas",
+      "type": "group",
+      "label": "✅ FASE 2: CONVERGENCIA, COMPROMISO Y ACCIÓN",
+      "x": -500,
+      "y": 480,
+      "width": 2670,
+      "height": 440,
+      "color": "5"
+    },
+    {
+      "id": "oracle-Plantilla_09_PostMortem_Blameless.canvas",
+      "type": "text",
+      "text": "> [!bug] ⚔️ EL COLISEO ADVERSARIAL (Dialéctica IA)\n> **Instrucción para el LLM:**\n> 1. Analiza las hipótesis generadas en este lienzo.\n> 2. Crea un 'Agente Antítesis' para destruir la hipótesis más popular.\n> 3. Devuelve únicamente la 'Síntesis': la verdad irrompible que sobrevive al debate.",
+      "x": 1720,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "1"
+    },
+    {
+      "id": "hash-Plantilla_09_PostMortem_Blameless.canvas",
+      "type": "text",
+      "text": "> [!quote] 🌌 SÍNTESIS GESTALT Y COMPRESIÓN\n> **Instrucción para el LLM:**\n> 1. Observa el patrón global de este lienzo.\n> 2. Mapea este problema corporativo a un sistema físico o biológico (Gestalt).\n> 3. Devuelve la solución topológica abstracta en un Hash Ejecutivo de 50 palabras.",
+      "x": 840,
+      "y": 600,
+      "width": 450,
+      "height": 280,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-1",
+      "fromNode": "anchor",
+      "fromSide": "bottom",
+      "toNode": "why-1",
+      "toSide": "top",
+      "label": "Disparado por",
+      "color": "6"
+    },
+    {
+      "id": "edge-2",
+      "fromNode": "why-1",
+      "fromSide": "bottom",
+      "toNode": "why-2",
+      "toSide": "top",
+      "label": "Porque",
+      "color": "6"
+    },
+    {
+      "id": "edge-3",
+      "fromNode": "why-2",
+      "fromSide": "bottom",
+      "toNode": "why-3",
+      "toSide": "top",
+      "label": "Porque",
+      "color": "6"
+    },
+    {
+      "id": "edge-4",
+      "fromNode": "why-3",
+      "fromSide": "bottom",
+      "toNode": "why-4",
+      "toSide": "top",
+      "label": "Porque",
+      "color": "6"
+    },
+    {
+      "id": "edge-5",
+      "fromNode": "why-4",
+      "fromSide": "bottom",
+      "toNode": "why-5",
+      "toSide": "top",
+      "label": "Porque",
+      "color": "6"
+    },
+    {
+      "id": "edge-6",
+      "fromNode": "why-5",
+      "fromSide": "bottom",
+      "toNode": "postmortem-action-1",
+      "toSide": "top",
+      "label": "Se mitiga con",
+      "color": "6"
+    },
+    {
+      "id": "edge-7",
+      "fromNode": "why-5",
+      "fromSide": "bottom",
+      "toNode": "postmortem-action-2",
+      "toSide": "top",
+      "label": "Se mitiga con",
+      "color": "6"
+    },
+    {
+      "id": "edge-tension-Plantilla_09_PostMortem_Blameless.canvas",
+      "fromNode": "oracle-Plantilla_09_PostMortem_Blameless.canvas",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Fricción Excluyente",
+      "color": "1"
+    }
+  ]
+}

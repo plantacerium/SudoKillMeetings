@@ -1,0 +1,181 @@
+{
+  "nodes": [
+    {
+      "id": "header",
+      "type": "text",
+      "text": "> [!abstract] 🛡️ PLANTILLA 11: AUDITORÍA DE SEGURIDAD Y SUPERFICIE DE ATAQUE\n> **Objetivo:** Evaluar vectores de vulnerabilidad y riesgos de cumplimiento legal antes de lanzar un nuevo producto.\n",
+      "x": -500,
+      "y": -600,
+      "width": 1810,
+      "height": 140,
+      "color": "6"
+    },
+    {
+      "id": "anchor",
+      "type": "text",
+      "text": "> [!danger] 🎯 MÓDULO O SISTEMA A EVALUAR\n> *Define el perímetro exacto bajo análisis (APIs, base de datos, paneles de administración).*\n> \n> - **Componente:** Nuevo Portal de Pagos y Facturación B2B\n> - **Clasificación de Datos manipulados:** Datos bancarios (PCI-DSS) y PII de clientes\n> \n> *Auditor de Seguridad: @Nombre*\n",
+      "x": -460,
+      "y": -400,
+      "width": 1730,
+      "height": 280,
+      "color": "1"
+    },
+    {
+      "id": "group-context-Plantilla_11_Auditoria_Seguridad_Riesgos.canvas",
+      "type": "group",
+      "label": "🎯 FASE 0: CONTEXTO Y PROBLEMA ANCLA",
+      "x": -500,
+      "y": -460,
+      "width": 1810,
+      "height": 380,
+      "color": "1"
+    },
+    {
+      "id": "middle-section-banner",
+      "type": "text",
+      "text": "**🚨 MATRIZ DE VECTORES DE AMENAZA (Horas 0-36)\n*Mapea escenarios realistas de intrusión o negligencia.***",
+      "x": -460,
+      "y": -10,
+      "width": 1300,
+      "height": 70,
+      "color": "6"
+    },
+    {
+      "id": "threat-auth",
+      "type": "text",
+      "text": "> [!warning] 🔑 Autenticación & Permisos\n> - ¿Existe riesgo de escalado de privilegios entre cuentas (IDOR)?\n> - ¿Las sesiones expiran adecuadamente?\n> - ¿2FA obligatorio para roles de administración?\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": -450,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "2"
+    },
+    {
+      "id": "threat-data",
+      "type": "text",
+      "text": "> [!example] 🔒 Cifrado & Fuga de Datos\n> - ¿Se almacenan números de tarjeta en crudo? (Debe ser tokenizado)\n> - ¿Los logs contienen información confidencial (PII)?\n> - ¿Cifrado en tránsito (TLS 1.3) y en reposo (AES-256)?\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": -20,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "3"
+    },
+    {
+      "id": "threat-supply",
+      "type": "text",
+      "text": "> [!success] 📦 Dependencias y Terceros\n> - ¿Hay paquetes de npm/pip con vulnerabilidades críticas (CVEs)?\n> - ¿Webhooks de pasarela con firma criptográfica validada?\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": 410,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "4"
+    },
+    {
+      "id": "bottom-section-banner",
+      "type": "text",
+      "text": "**🛑 BARRERAS DE CONTENCIÓN OBLIGATORIAS (Requisitos Pre-Lanzamiento)\n*Ninguna feature saldrá a producción si estos puntos no están resueltos.***",
+      "x": -460,
+      "y": 530,
+      "width": 1300,
+      "height": 70,
+      "color": "6"
+    },
+    {
+      "id": "sec-gate",
+      "type": "text",
+      "text": "> [!todo] 🚦 Condiciones de Aprobación de Seguridad\n> - [ ] Pasar análisis SAST/DAST sin vulnerabilidades de severidad alta\n> - [ ] Rotación automática de tokens cada 90 días\n> - [ ] Auditoría de logs inmutables en CloudWatch\n> \n> *Sign-off Seguridad: @SecLead*\n",
+      "x": -175,
+      "y": 600,
+      "width": 750,
+      "height": 280,
+      "color": "5"
+    },
+    {
+      "id": "group-middle-Plantilla_11_Auditoria_Seguridad_Riesgos.canvas",
+      "type": "group",
+      "label": "🧠 FASE 1: GRAPH OF THOUGHTS (MULTIVERSO DE HIPÓTESIS)",
+      "x": -500,
+      "y": -60,
+      "width": 1810,
+      "height": 530,
+      "color": "3"
+    },
+    {
+      "id": "group-bottom-Plantilla_11_Auditoria_Seguridad_Riesgos.canvas",
+      "type": "group",
+      "label": "✅ FASE 2: CONVERGENCIA, COMPROMISO Y ACCIÓN",
+      "x": -500,
+      "y": 480,
+      "width": 1810,
+      "height": 440,
+      "color": "5"
+    },
+    {
+      "id": "oracle-Plantilla_11_Auditoria_Seguridad_Riesgos.canvas",
+      "type": "text",
+      "text": "> [!bug] ⚔️ EL COLISEO ADVERSARIAL (Dialéctica IA)\n> **Instrucción para el LLM:**\n> 1. Analiza las hipótesis generadas en este lienzo.\n> 2. Crea un 'Agente Antítesis' para destruir la hipótesis más popular.\n> 3. Devuelve únicamente la 'Síntesis': la verdad irrompible que sobrevive al debate.",
+      "x": 860,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "1"
+    },
+    {
+      "id": "hash-Plantilla_11_Auditoria_Seguridad_Riesgos.canvas",
+      "type": "text",
+      "text": "> [!quote] 🌌 SÍNTESIS GESTALT Y COMPRESIÓN\n> **Instrucción para el LLM:**\n> 1. Observa el patrón global de este lienzo.\n> 2. Mapea este problema corporativo a un sistema físico o biológico (Gestalt).\n> 3. Devuelve la solución topológica abstracta en un Hash Ejecutivo de 50 palabras.",
+      "x": 615,
+      "y": 600,
+      "width": 450,
+      "height": 280,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-1",
+      "fromNode": "threat-auth",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Amenaza a",
+      "color": "6"
+    },
+    {
+      "id": "edge-2",
+      "fromNode": "threat-data",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Amenaza a",
+      "color": "6"
+    },
+    {
+      "id": "edge-3",
+      "fromNode": "threat-supply",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Amenaza a",
+      "color": "6"
+    },
+    {
+      "id": "edge-4",
+      "fromNode": "threat-auth",
+      "fromSide": "bottom",
+      "toNode": "sec-gate",
+      "toSide": "top",
+      "label": "Requiere control en",
+      "color": "6"
+    },
+    {
+      "id": "edge-tension-Plantilla_11_Auditoria_Seguridad_Riesgos.canvas",
+      "fromNode": "oracle-Plantilla_11_Auditoria_Seguridad_Riesgos.canvas",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Fricción Excluyente",
+      "color": "1"
+    }
+  ]
+}

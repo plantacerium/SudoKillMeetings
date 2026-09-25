@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"header-1","type":"text","text":"> [!abstract] 🏛️ PLANTILLA 01: EL FILTRO DE INTENCIÓN ASÍNCRONO\n> **Objetivo:** Matar la reunión síncrona inicial forzando la reflexión individual y el compromiso medible.\n","x":-500,"y":-600,"width":1830,"height":140,"color":"6"},
+		{"id":"anchor-problem","type":"text","text":"> [!danger] 🚨 EL PROBLEMA SANGRIENTO (Ancla)\n> *Escribe aquí el dolor corporativo real, cuantificable y urgente a resolver.*\n> \n> **Contexto / Métricas clave:**\n> - [Métrica afectada o coste actual]\n> - [Enlace a documentación, datos o métricas relacionadas]\n> \n> *Dueño de la iniciativa: @Nombre*\n","x":-460,"y":-400,"width":1750,"height":280,"color":"1"},
+		{"id":"group-context-Plantilla_01_Filtro_Intencion_Asincrono.canvas","type":"group","label":"🎯 FASE 0: CONTEXTO Y PROBLEMA ANCLA","x":-500,"y":-460,"width":1830,"height":380,"color":"1"},
+		{"id":"section-reflection","type":"text","text":"**🧠 CARRIL DE REFLEXIÓN AISLADA (Horas 12-36)\n*Coloca tu cartel individual abajo. Responde: ¿Por qué ocurre esto y cuál es la solución con mayor ROI?***","x":-460,"y":-10,"width":1300,"height":70,"color":"6"},
+		{"id":"user-a","type":"text","text":"> [!success] 👤 Participante A\n> **Mi Diagnóstico:**\n> - Causa raíz observada\n> \n> **Propuesta de Solución:**\n> - Acción directa recomendada\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):","x":-450,"y":70,"width":410,"height":360,"color":"4"},
+		{"id":"user-b","type":"text","text":"> [!example] 👤 Participante B\n> **Mi Diagnóstico:**\n> - Causa raíz observada\n> \n> **Propuesta de Solución:**\n> - Acción directa recomendada\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):","x":-20,"y":70,"width":410,"height":360,"color":"3"},
+		{"id":"user-c","type":"text","text":"> [!warning] 👤 Participante C\n> **Mi Diagnóstico:**\n> - Causa raíz observada\n> \n> **Propuesta de Solución:**\n> - Acción directa recomendada\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):","x":410,"y":70,"width":410,"height":360,"color":"2"},
+		{"id":"section-action","type":"text","text":"**🎯 CARRIL DE COMPROMISO E IMPACTO (Horas 36-48)\n*Zona exclusiva para decisiones finales. Prohibido texto ambiguo. Estricto formato de acción.***","x":-460,"y":530,"width":1300,"height":70,"color":"6"},
+		{"id":"action-1","type":"text","text":"> [!todo] 🚀 ÍTEM DE ACCIÓN 01\n> - **Qué:** Acción concreta\n> - **Quién (Responsable único):** @\n> - **Cuándo (Fecha límite):** \n> - **Métrica de éxito:**\n","x":-260,"y":600,"width":500,"height":280,"color":"5"},
+		{"id":"action-2","type":"text","text":"> [!todo] 🚀 ÍTEM DE ACCIÓN 02\n> - **Qué:** Acción concreta\n> - **Quién (Responsable único):** @\n> - **Cuándo (Fecha límite):** \n> - **Métrica de éxito:**\n","x":300,"y":600,"width":500,"height":280,"color":"5"},
+		{"id":"group-middle-Plantilla_01_Filtro_Intencion_Asincrono.canvas","type":"group","label":"🧠 FASE 1: GRAPH OF THOUGHTS (MULTIVERSO DE HIPÓTESIS)","x":-500,"y":-60,"width":1830,"height":530,"color":"3"},
+		{"id":"group-bottom-Plantilla_01_Filtro_Intencion_Asincrono.canvas","type":"group","label":"✅ FASE 2: CONVERGENCIA, COMPROMISO Y ACCIÓN","x":-500,"y":480,"width":1830,"height":440,"color":"5"},
+		{"id":"oracle-Plantilla_01_Filtro_Intencion_Asincrono.canvas","type":"text","text":"> [!bug] ⚔️ EL COLISEO ADVERSARIAL (Dialéctica IA)\n> **Instrucción para el LLM:**\n> 1. Analiza las hipótesis generadas en este lienzo.\n> 2. Crea un 'Agente Antítesis' para destruir la hipótesis más popular.\n> 3. Devuelve únicamente la 'Síntesis': la verdad irrompible que sobrevive al debate.","x":860,"y":70,"width":410,"height":360,"color":"1"},
+		{"id":"hash-Plantilla_01_Filtro_Intencion_Asincrono.canvas","type":"text","text":"> [!quote] 🌌 SÍNTESIS GESTALT Y COMPRESIÓN\n> **Instrucción para el LLM:**\n> 1. Observa el patrón global de este lienzo.\n> 2. Mapea este problema corporativo a un sistema físico o biológico (Gestalt).\n> 3. Devuelve la solución topológica abstracta en un Hash Ejecutivo de 50 palabras.","x":840,"y":600,"width":450,"height":280,"color":"6"}
+	],
+	"edges":[
+		{"id":"edge-a-to-problem","fromNode":"user-a","fromSide":"top","toNode":"anchor-problem","toSide":"bottom","label":"Ataca la causa","color":"6"},
+		{"id":"edge-b-to-problem","fromNode":"user-b","fromSide":"top","toNode":"anchor-problem","toSide":"bottom","label":"Aporta datos","color":"6"},
+		{"id":"edge-c-to-problem","fromNode":"user-c","fromSide":"top","toNode":"anchor-problem","toSide":"bottom","label":"Simplifica","color":"6"},
+		{"id":"edge-reflection-to-action-1","fromNode":"user-b","fromSide":"bottom","toNode":"action-1","toSide":"top","label":"Consolidado en","color":"6"},
+		{"id":"edge-reflection-to-action-2","fromNode":"user-c","fromSide":"bottom","toNode":"action-2","toSide":"top","label":"Consolidado en","color":"6"},
+		{"id":"edge-tension-Plantilla_01_Filtro_Intencion_Asincrono.canvas","fromNode":"oracle-Plantilla_01_Filtro_Intencion_Asincrono.canvas","fromSide":"top","toNode":"anchor-problem","toSide":"bottom","label":"Fricción Excluyente","color":"1"}
+	]
+}

@@ -1,0 +1,173 @@
+{
+  "nodes": [
+    {
+      "id": "group-middle-Plantilla_05_Daily_Standup_Visual.canvas",
+      "type": "group",
+      "x": -500,
+      "y": -60,
+      "width": 1830,
+      "height": 530,
+      "color": "3",
+      "label": "🧠 FASE 1: GRAPH OF THOUGHTS (MULTIVERSO DE HIPÓTESIS)"
+    },
+    {
+      "id": "group-bottom-Plantilla_05_Daily_Standup_Visual.canvas",
+      "type": "group",
+      "x": -500,
+      "y": 480,
+      "width": 1830,
+      "height": 440,
+      "color": "5",
+      "label": "✅ FASE 2: CONVERGENCIA, COMPROMISO Y ACCIÓN"
+    },
+    {
+      "id": "group-context-Plantilla_05_Daily_Standup_Visual.canvas",
+      "type": "group",
+      "x": -500,
+      "y": -460,
+      "width": 1830,
+      "height": 340,
+      "color": "1",
+      "label": "🎯 FASE 0: CONTEXTO Y PROBLEMA ANCLA"
+    },
+    {
+      "id": "header",
+      "type": "text",
+      "text": "> [!abstract] ⏱️ PLANTILLA 05: EL DAILY STANDUP VISUAL (BLOQUEADOR-CENTRIC)\n> **Objetivo:** Matar la llamada diaria de 30 min. Reportar avance en 3 min y desatascar cuellos de botella con flechas de ayuda.\n",
+      "x": -500,
+      "y": -600,
+      "width": 1830,
+      "height": 140,
+      "color": "6"
+    },
+    {
+      "id": "anchor",
+      "type": "text",
+      "text": "> [!danger] 🎯 META DEL SPRINT Y DÍAS RESTANTES\n> *Recordatorio del objetivo común. No nos importa si estuviste ocupado, nos importa si la meta se cumple.*\n> \n> - **Días restantes de Sprint:** \n> - **Puntos de historia completados vs pendientes:** \n> \n> *Scrum Master / Facilitador: @Nombre*\n",
+      "x": -460,
+      "y": -400,
+      "width": 1750,
+      "height": 260,
+      "color": "1"
+    },
+    {
+      "id": "middle-section-banner",
+      "type": "text",
+      "text": "**👤 CARRILES PERSONALES DE ACTUALIZACIÓN (Completar antes de las 10:00 AM)\n*Sé conciso. Si no tienes bloqueador, deja el campo vacío.***",
+      "x": -460,
+      "y": -10,
+      "width": 1300,
+      "height": 70,
+      "color": "6"
+    },
+    {
+      "id": "member-1",
+      "type": "text",
+      "text": "> [!success] 🧑‍💻 Dev 1: Frontend\n> **Ayer completé:**\n> - \n> **Hoy mi foco único es:**\n> - \n> **🚨 BLOQUEADOR:**\n> - Esperando endpoints de auth\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": -450,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "4"
+    },
+    {
+      "id": "member-2",
+      "type": "text",
+      "text": "> [!example] ⚙️ Dev 2: Backend\n> **Ayer completé:**\n> - \n> **Hoy mi foco único es:**\n> - Publicar endpoints auth\n> **🚨 BLOQUEADOR:**\n> - Ninguno\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": -20,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "3"
+    },
+    {
+      "id": "member-3",
+      "type": "text",
+      "text": "> [!warning] 🧪 QA & Testing\n> **Ayer completé:**\n> - \n> **Hoy mi foco único es:**\n> - Pruebas E2E del checkout\n> **🚨 BLOQUEADOR:**\n> - Datos de prueba corruptos\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": 410,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "2"
+    },
+    {
+      "id": "bottom-section-banner",
+      "type": "text",
+      "text": "**🤝 ZONA DE DESBLOQUEO RÁPIDO (Enjambre / Pairing)\n*Conecta tu ayuda directamente con una flecha hacia quien reportó el bloqueo.***",
+      "x": -460,
+      "y": 530,
+      "width": 1300,
+      "height": 70,
+      "color": "6"
+    },
+    {
+      "id": "help-1",
+      "type": "text",
+      "text": "> [!todo] ⚡ Acción de Desbloqueo A\n> - **Quién asume el auxilio:** @Dev2\n> - **Solución express:** 'Endpoints subidos a staging a las 11:30 AM'\n> - **Estado:** En progreso\n",
+      "x": -260,
+      "y": 600,
+      "width": 500,
+      "height": 280,
+      "color": "5"
+    },
+    {
+      "id": "help-2",
+      "type": "text",
+      "text": "> [!todo] ⚡ Acción de Desbloqueo B\n> - **Quién asume el auxilio:** @DevOps\n> - **Solución express:** 'Script de base de datos de test restablecido'\n> - **Estado:** Resuelto\n",
+      "x": 300,
+      "y": 600,
+      "width": 500,
+      "height": 280,
+      "color": "5"
+    },
+    {
+      "id": "oracle-Plantilla_05_Daily_Standup_Visual.canvas",
+      "type": "text",
+      "text": "> [!bug] ⚔️ EL COLISEO ADVERSARIAL (Dialéctica IA)\n> **Instrucción para el LLM:**\n> 1. Analiza las hipótesis generadas en este lienzo.\n> 2. Crea un 'Agente Antítesis' para destruir la hipótesis más popular.\n> 3. Devuelve únicamente la 'Síntesis': la verdad irrompible que sobrevive al debate.",
+      "x": 860,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "1"
+    },
+    {
+      "id": "hash-Plantilla_05_Daily_Standup_Visual.canvas",
+      "type": "text",
+      "text": "> [!quote] 🌌 SÍNTESIS GESTALT Y COMPRESIÓN\n> **Instrucción para el LLM:**\n> 1. Observa el patrón global de este lienzo.\n> 2. Mapea este problema corporativo a un sistema físico o biológico (Gestalt).\n> 3. Devuelve la solución topológica abstracta en un Hash Ejecutivo de 50 palabras.",
+      "x": 840,
+      "y": 600,
+      "width": 450,
+      "height": 280,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-1",
+      "fromNode": "help-1",
+      "fromSide": "bottom",
+      "toNode": "member-1",
+      "toSide": "top",
+      "color": "6",
+      "label": "Desbloquea a"
+    },
+    {
+      "id": "edge-2",
+      "fromNode": "help-2",
+      "fromSide": "bottom",
+      "toNode": "member-3",
+      "toSide": "top",
+      "color": "6",
+      "label": "Desbloquea a"
+    },
+    {
+      "id": "edge-tension-Plantilla_05_Daily_Standup_Visual.canvas",
+      "fromNode": "oracle-Plantilla_05_Daily_Standup_Visual.canvas",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Fricción Excluyente",
+      "color": "1"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "nodes": [
+    {
+      "id": "header",
+      "type": "text",
+      "text": "> [!abstract] 🔄 PLANTILLA 13: RETROSPECTIVA DE SPRINT VISUAL\n> **Objetivo:** Descubrir fricciones de equipo y celebrar victorias sin las incómodas pausas de silencio en Zoom.\n",
+      "x": -500,
+      "y": -600,
+      "width": 1830,
+      "height": 140,
+      "color": "6"
+    },
+    {
+      "id": "anchor",
+      "type": "text",
+      "text": "> [!danger] 🏁 CONTEXTO DEL SPRINT FINALIZADO\n> *Métricas objetivas de la iteración.*\n> \n> - **Sprint N°:** \n> - **Historias comprometidas vs entregadas:** \n> - **Incidentes imprevistos surgidos:** \n> \n> *Facilitador: @Nombre*\n",
+      "x": -460,
+      "y": -400,
+      "width": 1750,
+      "height": 280,
+      "color": "1"
+    },
+    {
+      "id": "group-context-Plantilla_13_Retrospectiva_Sprint_Visual.canvas",
+      "type": "group",
+      "label": "🎯 FASE 0: CONTEXTO Y PROBLEMA ANCLA",
+      "x": -500,
+      "y": -460,
+      "width": 1830,
+      "height": 380,
+      "color": "1"
+    },
+    {
+      "id": "middle-section-banner",
+      "type": "text",
+      "text": "**🧠 EL TRÍPODE DE LA RETROSPECTIVA (Horas 0-30)\n*Todos los integrantes colocan tarjetas de forma anónima o con su usuario.***",
+      "x": -460,
+      "y": -10,
+      "width": 1300,
+      "height": 70,
+      "color": "6"
+    },
+    {
+      "id": "retro-stop",
+      "type": "text",
+      "text": "> [!danger] 🛑 STOP (Detener)\n> *¿Qué nos causó fricción, pérdida de tiempo o frustración?*\n> - PRs gigantes de +800 líneas que tardaron 4 días en revisarse\n> - Especificaciones cambiadas a mitad del sprint\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": -450,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "1"
+    },
+    {
+      "id": "retro-start",
+      "type": "text",
+      "text": "> [!success] 🚀 START (Empezar)\n> *¿Qué nuevo hábito o experimento táctico debemos probar?*\n> - Límite estricto de 200 líneas por Pull Request\n> - Automatizar pruebas de integración en cada commit\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": -20,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "4"
+    },
+    {
+      "id": "retro-continue",
+      "type": "text",
+      "text": "> [!example] 💚 CONTINUE (Mantener)\n> *¿Qué funcionó de manera sobresaliente y merece aplauso?*\n> - Excelente comunicación asíncrona entre QA y Frontend\n> - La documentación de la nueva API ahorró horas de dudas\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": 410,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "3"
+    },
+    {
+      "id": "bottom-section-banner",
+      "type": "text",
+      "text": "**🎯 TOP 2 COMPROMISOS DE MEJORA PARA EL PRÓXIMO SPRINT\n*No intentamos cambiar 10 cosas; solo 2 experimentos con responsables.***",
+      "x": -460,
+      "y": 530,
+      "width": 1300,
+      "height": 70,
+      "color": "6"
+    },
+    {
+      "id": "retro-action-1",
+      "type": "text",
+      "text": "> [!todo] 🎯 Experimento 1: Micro-PRs\n> Instalar bot en GitHub que advierta si un PR supera 300 líneas.\n> \n> *Responsable: @DevOps | Evaluación: En 15 días*\n",
+      "x": -260,
+      "y": 600,
+      "width": 500,
+      "height": 280,
+      "color": "5"
+    },
+    {
+      "id": "retro-action-2",
+      "type": "text",
+      "text": "> [!todo] 🎯 Experimento 2: Congelamiento de Scope\n> Prohibido alterar tickets en 'In Progress' sin mover otro ticket equivalente al backlog.\n> \n> *Responsable: @ProductOwner*\n",
+      "x": 300,
+      "y": 600,
+      "width": 500,
+      "height": 280,
+      "color": "5"
+    },
+    {
+      "id": "group-middle-Plantilla_13_Retrospectiva_Sprint_Visual.canvas",
+      "type": "group",
+      "label": "🧠 FASE 1: GRAPH OF THOUGHTS (MULTIVERSO DE HIPÓTESIS)",
+      "x": -500,
+      "y": -60,
+      "width": 1830,
+      "height": 530,
+      "color": "3"
+    },
+    {
+      "id": "group-bottom-Plantilla_13_Retrospectiva_Sprint_Visual.canvas",
+      "type": "group",
+      "label": "✅ FASE 2: CONVERGENCIA, COMPROMISO Y ACCIÓN",
+      "x": -500,
+      "y": 480,
+      "width": 1830,
+      "height": 440,
+      "color": "5"
+    },
+    {
+      "id": "oracle-Plantilla_13_Retrospectiva_Sprint_Visual.canvas",
+      "type": "text",
+      "text": "> [!bug] ⚔️ EL COLISEO ADVERSARIAL (Dialéctica IA)\n> **Instrucción para el LLM:**\n> 1. Analiza las hipótesis generadas en este lienzo.\n> 2. Crea un 'Agente Antítesis' para destruir la hipótesis más popular.\n> 3. Devuelve únicamente la 'Síntesis': la verdad irrompible que sobrevive al debate.",
+      "x": 860,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "1"
+    },
+    {
+      "id": "hash-Plantilla_13_Retrospectiva_Sprint_Visual.canvas",
+      "type": "text",
+      "text": "> [!quote] 🌌 SÍNTESIS GESTALT Y COMPRESIÓN\n> **Instrucción para el LLM:**\n> 1. Observa el patrón global de este lienzo.\n> 2. Mapea este problema corporativo a un sistema físico o biológico (Gestalt).\n> 3. Devuelve la solución topológica abstracta en un Hash Ejecutivo de 50 palabras.",
+      "x": 840,
+      "y": 600,
+      "width": 450,
+      "height": 280,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-1",
+      "fromNode": "retro-stop",
+      "fromSide": "bottom",
+      "toNode": "retro-action-1",
+      "toSide": "top",
+      "label": "Origina",
+      "color": "6"
+    },
+    {
+      "id": "edge-2",
+      "fromNode": "retro-stop",
+      "fromSide": "bottom",
+      "toNode": "retro-action-2",
+      "toSide": "top",
+      "label": "Origina",
+      "color": "6"
+    },
+    {
+      "id": "edge-3",
+      "fromNode": "retro-continue",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Refuerza",
+      "color": "6"
+    },
+    {
+      "id": "edge-tension-Plantilla_13_Retrospectiva_Sprint_Visual.canvas",
+      "fromNode": "oracle-Plantilla_13_Retrospectiva_Sprint_Visual.canvas",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Fricción Excluyente",
+      "color": "1"
+    }
+  ]
+}

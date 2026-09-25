@@ -1,0 +1,200 @@
+{
+  "nodes": [
+    {
+      "id": "header-02",
+      "type": "text",
+      "text": "> [!abstract] ⚙️ PLANTILLA 02: EL DESGLOSE DE FRICCIÓN OPERATIVA\n> **Objetivo:** Identificar asíncronamente cuellos de botella técnicos, dependencias y riesgos antes de planificar tareas o escribir código.\n",
+      "x": -500,
+      "y": -600,
+      "width": 1830,
+      "height": 140,
+      "color": "6"
+    },
+    {
+      "id": "anchor-initiative",
+      "type": "text",
+      "text": "> [!danger] 🎯 LA INICIATIVA (Contexto)\n> *¿Qué estamos a punto de construir o modificar? (Heredado de la Plantilla 01)*\n> \n> **Descripción técnica de alto nivel:**\n> - [Breve resumen de la arquitectura o sistema propuesto]\n> - [Límite de tiempo/presupuesto esperado]\n> \n> *Líder Técnico: @Nombre*\n",
+      "x": -460,
+      "y": -400,
+      "width": 1750,
+      "height": 280,
+      "color": "1"
+    },
+    {
+      "id": "group-context-Plantilla_02_Desglose_Friccion_Operativa.canvas",
+      "type": "group",
+      "label": "🎯 FASE 0: CONTEXTO Y PROBLEMA ANCLA",
+      "x": -500,
+      "y": -460,
+      "width": 1830,
+      "height": 380,
+      "color": "1"
+    },
+    {
+      "id": "lane-friction",
+      "type": "text",
+      "text": "**🚧 CARRIL DE MAPEADO DE RIESGOS (Horas 0-24)\n*Identifica qué se va a romper. Separa tus alertas en el área correspondiente. Prohibido ser optimista aquí.***",
+      "x": -460,
+      "y": -10,
+      "width": 1300,
+      "height": 70,
+      "color": "6"
+    },
+    {
+      "id": "bottleneck-frontend",
+      "type": "text",
+      "text": "> [!success] 🖥️ Fricción: FRONTEND / UI\n> **Deuda técnica que nos frenará:**\n> - Componentes legados sin tests\n> \n> **Dependencias externas bloqueantes:**\n> - Aprobación de mockups\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": -450,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "4"
+    },
+    {
+      "id": "bottleneck-backend",
+      "type": "text",
+      "text": "> [!example] ⚙️ Fricción: BACKEND / LÓGICA\n> **Deuda técnica que nos frenará:**\n> - Consultas N+1 en API principal\n> \n> **Dependencias de BD/APIs:**\n> - Migración de base de datos\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": -20,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "3"
+    },
+    {
+      "id": "bottleneck-infra",
+      "type": "text",
+      "text": "> [!warning] ☁️ Fricción: INFRA / DEVOPS\n> **Riesgos de escalabilidad:**\n> - Capacidad de memoria en clúster\n> \n> **Permisos / Configuración:**\n> - Secretos de AWS pendientes\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": 410,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "2"
+    },
+    {
+      "id": "lane-mitigation",
+      "type": "text",
+      "text": "**🛡️ CARRIL DE MITIGACIÓN TÁCTICA (Horas 24-48)\n*Propuestas concretas para esquivar o absorber la fricción antes de iniciar los sprints.***",
+      "x": -460,
+      "y": 530,
+      "width": 1300,
+      "height": 70,
+      "color": "6"
+    },
+    {
+      "id": "mitigation-1",
+      "type": "text",
+      "text": "> [!todo] 🔨 Tarea de Mitigación A\n> - **Riesgo abordado:** [Vincular con flecha]\n> - **Acción preventiva:** Reorganizar esquema BD\n> - **Asignado a:** @BackendLead\n",
+      "x": -260,
+      "y": 600,
+      "width": 500,
+      "height": 280,
+      "color": "5"
+    },
+    {
+      "id": "mitigation-2",
+      "type": "text",
+      "text": "> [!todo] 🔨 Tarea de Mitigación B\n> - **Riesgo abordado:** [Vincular con flecha]\n> - **Acción preventiva:** Aumentar pods y pruebas de estrés\n> - **Asignado a:** @DevOpsLead\n",
+      "x": 300,
+      "y": 600,
+      "width": 500,
+      "height": 280,
+      "color": "5"
+    },
+    {
+      "id": "group-middle-Plantilla_02_Desglose_Friccion_Operativa.canvas",
+      "type": "group",
+      "label": "🧠 FASE 1: GRAPH OF THOUGHTS (MULTIVERSO DE HIPÓTESIS)",
+      "x": -500,
+      "y": -60,
+      "width": 1830,
+      "height": 530,
+      "color": "3"
+    },
+    {
+      "id": "group-bottom-Plantilla_02_Desglose_Friccion_Operativa.canvas",
+      "type": "group",
+      "label": "✅ FASE 2: CONVERGENCIA, COMPROMISO Y ACCIÓN",
+      "x": -500,
+      "y": 480,
+      "width": 1830,
+      "height": 440,
+      "color": "5"
+    },
+    {
+      "id": "oracle-Plantilla_02_Desglose_Friccion_Operativa.canvas",
+      "type": "text",
+      "text": "> [!bug] ⚔️ EL COLISEO ADVERSARIAL (Dialéctica IA)\n> **Instrucción para el LLM:**\n> 1. Analiza las hipótesis generadas en este lienzo.\n> 2. Crea un 'Agente Antítesis' para destruir la hipótesis más popular.\n> 3. Devuelve únicamente la 'Síntesis': la verdad irrompible que sobrevive al debate.",
+      "x": 860,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "1"
+    },
+    {
+      "id": "hash-Plantilla_02_Desglose_Friccion_Operativa.canvas",
+      "type": "text",
+      "text": "> [!quote] 🌌 SÍNTESIS GESTALT Y COMPRESIÓN\n> **Instrucción para el LLM:**\n> 1. Observa el patrón global de este lienzo.\n> 2. Mapea este problema corporativo a un sistema físico o biológico (Gestalt).\n> 3. Devuelve la solución topológica abstracta en un Hash Ejecutivo de 50 palabras.",
+      "x": 840,
+      "y": 600,
+      "width": 450,
+      "height": 280,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-front-to-anchor",
+      "fromNode": "bottleneck-frontend",
+      "fromSide": "top",
+      "toNode": "anchor-initiative",
+      "toSide": "bottom",
+      "label": "Afecta a",
+      "color": "6"
+    },
+    {
+      "id": "e-back-to-anchor",
+      "fromNode": "bottleneck-backend",
+      "fromSide": "top",
+      "toNode": "anchor-initiative",
+      "toSide": "bottom",
+      "label": "Afecta a",
+      "color": "6"
+    },
+    {
+      "id": "e-infra-to-anchor",
+      "fromNode": "bottleneck-infra",
+      "fromSide": "top",
+      "toNode": "anchor-initiative",
+      "toSide": "bottom",
+      "label": "Afecta a",
+      "color": "6"
+    },
+    {
+      "id": "e-mit-1-to-back",
+      "fromNode": "mitigation-1",
+      "fromSide": "top",
+      "toNode": "bottleneck-backend",
+      "toSide": "bottom",
+      "label": "Resuelve",
+      "color": "6"
+    },
+    {
+      "id": "e-mit-2-to-infra",
+      "fromNode": "mitigation-2",
+      "fromSide": "top",
+      "toNode": "bottleneck-infra",
+      "toSide": "bottom",
+      "label": "Resuelve",
+      "color": "6"
+    },
+    {
+      "id": "edge-tension-Plantilla_02_Desglose_Friccion_Operativa.canvas",
+      "fromNode": "oracle-Plantilla_02_Desglose_Friccion_Operativa.canvas",
+      "fromSide": "top",
+      "toNode": "anchor-initiative",
+      "toSide": "bottom",
+      "label": "Fricción Excluyente",
+      "color": "1"
+    }
+  ]
+}

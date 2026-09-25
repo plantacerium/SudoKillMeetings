@@ -1,0 +1,199 @@
+{
+  "nodes": [
+    {
+      "id": "header",
+      "type": "text",
+      "text": "> [!abstract] 🚀 PLANTILLA 19: SINCRONIZACIÓN DE LANZAMIENTO (GO-TO-MARKET)\n> **Objetivo:** Coordinar producto, marketing, ventas y soporte para el día del lanzamiento sin sincronizaciones maratonianas.\n",
+      "x": -500,
+      "y": -600,
+      "width": 1810,
+      "height": 140,
+      "color": "6"
+    },
+    {
+      "id": "anchor",
+      "type": "text",
+      "text": "> [!danger] 🚀 EL LANZAMIENTO (Fecha y Alcance)\n> *Datos del día D.*\n> \n> - **Fecha y Hora del Lanzamiento:** Jueves 15 de Octubre - 14:00 UTC\n> - **Público Objetivo:** Usuarios de planes Pro y Nuevos Leads\n> - **Feature Flag activa:** `feature_v2_launch`\n> \n> *Release Manager: @Nombre*\n",
+      "x": -460,
+      "y": -400,
+      "width": 1730,
+      "height": 280,
+      "color": "1"
+    },
+    {
+      "id": "group-context-Plantilla_19_Planificacion_Lanzamiento_GTM.canvas",
+      "type": "group",
+      "label": "🎯 FASE 0: CONTEXTO Y PROBLEMA ANCLA",
+      "x": -500,
+      "y": -460,
+      "width": 1810,
+      "height": 380,
+      "color": "1"
+    },
+    {
+      "id": "middle-section-banner",
+      "type": "text",
+      "text": "**🏹 CHECKLISTS DE PREPARACIÓN POR DEPARTAMENTO (Horas 0-48)\n*Cada área confirma que sus frentes están listos antes de pulsar el botón rojo.***",
+      "x": -460,
+      "y": -10,
+      "width": 1300,
+      "height": 70,
+      "color": "6"
+    },
+    {
+      "id": "gtm-engineering",
+      "type": "text",
+      "text": "> [!success] 💻 Ingeniería & Infra\n> - [ ] Despliegue en producción con Feature Flag apagada\n> - [ ] Plan de Rollback testeado (tiempo de reversión < 3 min)\n> - [ ] Monitoreo de latencia y errores en tiempo real configurado\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": -450,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "4"
+    },
+    {
+      "id": "gtm-marketing",
+      "type": "text",
+      "text": "> [!example] 📣 Marketing & Ventas\n> - [ ] Post en Blog y Notas de Prensa programadas\n> - [ ] Newsletter a los 25,000 suscriptores en cola\n> - [ ] Banners promocionales activos en la home\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": -20,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "3"
+    },
+    {
+      "id": "gtm-support",
+      "type": "text",
+      "text": "> [!warning] 🎧 Soporte al Cliente\n> - [ ] Documentación del Help Center actualizada\n> - [ ] Equipo de soporte entrenado en los 5 fallos comunes\n> - [ ] Plantillas de respuesta rápida en Zendesk/Intercom listas\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": 410,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "2"
+    },
+    {
+      "id": "bottom-section-banner",
+      "type": "text",
+      "text": "**🚦 DECISIÓN GO / NO-GO (3 Horas antes del lanzamiento)\n*Luz verde unánime obligatoria.***",
+      "x": -460,
+      "y": 530,
+      "width": 1300,
+      "height": 70,
+      "color": "6"
+    },
+    {
+      "id": "go-no-go",
+      "type": "text",
+      "text": "> [!todo] 🟢 VEREDICTO FINAL: GO PARA LANZAMIENTO\n> - Ingeniería: **Luz Verde** ✅\n> - Marketing: **Luz Verde** ✅\n> - Soporte: **Luz Verde** ✅\n> \n> *Apertura del rollout al 100% de los usuarios confirmada.*\n",
+      "x": -175,
+      "y": 600,
+      "width": 750,
+      "height": 280,
+      "color": "5"
+    },
+    {
+      "id": "group-middle-Plantilla_19_Planificacion_Lanzamiento_GTM.canvas",
+      "type": "group",
+      "label": "🧠 FASE 1: GRAPH OF THOUGHTS (MULTIVERSO DE HIPÓTESIS)",
+      "x": -500,
+      "y": -60,
+      "width": 1810,
+      "height": 530,
+      "color": "3"
+    },
+    {
+      "id": "group-bottom-Plantilla_19_Planificacion_Lanzamiento_GTM.canvas",
+      "type": "group",
+      "label": "✅ FASE 2: CONVERGENCIA, COMPROMISO Y ACCIÓN",
+      "x": -500,
+      "y": 480,
+      "width": 1810,
+      "height": 440,
+      "color": "5"
+    },
+    {
+      "id": "oracle-Plantilla_19_Planificacion_Lanzamiento_GTM.canvas",
+      "type": "text",
+      "text": "> [!bug] ⚔️ EL COLISEO ADVERSARIAL (Dialéctica IA)\n> **Instrucción para el LLM:**\n> 1. Analiza las hipótesis generadas en este lienzo.\n> 2. Crea un 'Agente Antítesis' para destruir la hipótesis más popular.\n> 3. Devuelve únicamente la 'Síntesis': la verdad irrompible que sobrevive al debate.",
+      "x": 860,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "1"
+    },
+    {
+      "id": "hash-Plantilla_19_Planificacion_Lanzamiento_GTM.canvas",
+      "type": "text",
+      "text": "> [!quote] 🌌 SÍNTESIS GESTALT Y COMPRESIÓN\n> **Instrucción para el LLM:**\n> 1. Observa el patrón global de este lienzo.\n> 2. Mapea este problema corporativo a un sistema físico o biológico (Gestalt).\n> 3. Devuelve la solución topológica abstracta en un Hash Ejecutivo de 50 palabras.",
+      "x": 615,
+      "y": 600,
+      "width": 450,
+      "height": 280,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-1",
+      "fromNode": "gtm-engineering",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Prepara",
+      "color": "6"
+    },
+    {
+      "id": "edge-2",
+      "fromNode": "gtm-marketing",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Prepara",
+      "color": "6"
+    },
+    {
+      "id": "edge-3",
+      "fromNode": "gtm-support",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Prepara",
+      "color": "6"
+    },
+    {
+      "id": "edge-4",
+      "fromNode": "gtm-engineering",
+      "fromSide": "bottom",
+      "toNode": "go-no-go",
+      "toSide": "top",
+      "label": "Aprueba",
+      "color": "6"
+    },
+    {
+      "id": "edge-5",
+      "fromNode": "gtm-marketing",
+      "fromSide": "bottom",
+      "toNode": "go-no-go",
+      "toSide": "top",
+      "label": "Aprueba",
+      "color": "6"
+    },
+    {
+      "id": "edge-6",
+      "fromNode": "gtm-support",
+      "fromSide": "bottom",
+      "toNode": "go-no-go",
+      "toSide": "top",
+      "label": "Aprueba",
+      "color": "6"
+    },
+    {
+      "id": "edge-tension-Plantilla_19_Planificacion_Lanzamiento_GTM.canvas",
+      "fromNode": "oracle-Plantilla_19_Planificacion_Lanzamiento_GTM.canvas",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Fricción Excluyente",
+      "color": "1"
+    }
+  ]
+}

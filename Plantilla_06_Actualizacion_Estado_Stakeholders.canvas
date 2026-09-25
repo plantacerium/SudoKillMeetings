@@ -1,0 +1,181 @@
+{
+  "nodes": [
+    {
+      "id": "header",
+      "type": "text",
+      "text": "> [!abstract] 📊 PLANTILLA 06: ACTUALIZACIÓN EJECUTIVA DE ESTADO\n> **Objetivo:** Informar el avance real del proyecto a directivos y clientes sin organizar llamadas de estatus aburridas.\n",
+      "x": -500,
+      "y": -600,
+      "width": 1810,
+      "height": 140,
+      "color": "6"
+    },
+    {
+      "id": "anchor",
+      "type": "text",
+      "text": "> [!danger] 🚦 ESTADO GENERAL DEL PROYECTO (Semáforo)\n> *Evaluación honesta del estado de salud del proyecto.*\n> \n> **Estado:** [ 🟢 EN TIEMPO / 🟡 RIESGO MODERADO / 🔴 CRÍTICO ]\n> **Resumen en una frase:** \n> **Fecha estimada de entrega:** \n> \n> *Líder de Proyecto: @Nombre*\n",
+      "x": -460,
+      "y": -400,
+      "width": 1730,
+      "height": 280,
+      "color": "1"
+    },
+    {
+      "id": "group-context-Plantilla_06_Actualizacion_Estado_Stakeholders.canvas",
+      "type": "group",
+      "label": "🎯 FASE 0: CONTEXTO Y PROBLEMA ANCLA",
+      "x": -500,
+      "y": -460,
+      "width": 1810,
+      "height": 380,
+      "color": "1"
+    },
+    {
+      "id": "middle-section-banner",
+      "type": "text",
+      "text": "**📋 EL RESUMEN DE LAS TRES COLUMNAS (Actualizado quincenalmente)\n*Cero lenguaje técnico denso. Claridad absoluta para el negocio.***",
+      "x": -460,
+      "y": -10,
+      "width": 1300,
+      "height": 70,
+      "color": "6"
+    },
+    {
+      "id": "col-achieved",
+      "type": "text",
+      "text": "> [!success] 🟢 Hitos Logrados\n> - Despliegue de pasarela de pago en beta\n> - 500 usuarios pioneros activos\n> - Reducción de latencia en 30%\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": -450,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "4"
+    },
+    {
+      "id": "col-in-progress",
+      "type": "text",
+      "text": "> [!example] 🟡 En Curso & Atención\n> - Integración con CRM de ventas (retraso 3 días)\n> - Ajuste de términos legales y política de cookies\n> - Pruebas de estrés del servidor\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": -20,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "3"
+    },
+    {
+      "id": "col-escalations",
+      "type": "text",
+      "text": "> [!danger] 🔴 Decisiones Requeridas\n> - **Aprobación de sobrecoste servidor ($300/mes)**\n> - **Definición de precios del plan Enterprise**\n> - *Esperando respuesta de: @Direccion*\n\n> \n> **[Chain of Thought]**\n> 1. Hipótesis Principal:\n> 2. Hipótesis Inversa (¿Y si es lo contrario?):\n> 3. Fusión (Path Merging):",
+      "x": 410,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "1"
+    },
+    {
+      "id": "bottom-section-banner",
+      "type": "text",
+      "text": "**💬 BUZÓN ASÍNCRONO DE PREGUNTAS DE STAKEHOLDERS\n*Deja tu pregunta aquí abajo con mención. El equipo responderá en un plazo de 6 horas laborales.***",
+      "x": -460,
+      "y": 530,
+      "width": 1300,
+      "height": 70,
+      "color": "6"
+    },
+    {
+      "id": "stakeholder-qa",
+      "type": "text",
+      "text": "> [!todo] ❓ Dudas & Respuestas Directas\n> - **P:** ¿Llegamos al lanzamiento del día 15?\n>   - **R (@Líder):** Sí, siempre que se apruebe el ítem rojo antes del jueves.\n> - **P:** ¿Cómo va el feedback del cliente piloto?\n>   - **R:** NPS inicial de 9/10.\n",
+      "x": -175,
+      "y": 600,
+      "width": 750,
+      "height": 280,
+      "color": "5"
+    },
+    {
+      "id": "group-middle-Plantilla_06_Actualizacion_Estado_Stakeholders.canvas",
+      "type": "group",
+      "label": "🧠 FASE 1: GRAPH OF THOUGHTS (MULTIVERSO DE HIPÓTESIS)",
+      "x": -500,
+      "y": -60,
+      "width": 1810,
+      "height": 530,
+      "color": "3"
+    },
+    {
+      "id": "group-bottom-Plantilla_06_Actualizacion_Estado_Stakeholders.canvas",
+      "type": "group",
+      "label": "✅ FASE 2: CONVERGENCIA, COMPROMISO Y ACCIÓN",
+      "x": -500,
+      "y": 480,
+      "width": 1810,
+      "height": 440,
+      "color": "5"
+    },
+    {
+      "id": "oracle-Plantilla_06_Actualizacion_Estado_Stakeholders.canvas",
+      "type": "text",
+      "text": "> [!bug] ⚔️ EL COLISEO ADVERSARIAL (Dialéctica IA)\n> **Instrucción para el LLM:**\n> 1. Analiza las hipótesis generadas en este lienzo.\n> 2. Crea un 'Agente Antítesis' para destruir la hipótesis más popular.\n> 3. Devuelve únicamente la 'Síntesis': la verdad irrompible que sobrevive al debate.",
+      "x": 860,
+      "y": 70,
+      "width": 410,
+      "height": 360,
+      "color": "1"
+    },
+    {
+      "id": "hash-Plantilla_06_Actualizacion_Estado_Stakeholders.canvas",
+      "type": "text",
+      "text": "> [!quote] 🌌 SÍNTESIS GESTALT Y COMPRESIÓN\n> **Instrucción para el LLM:**\n> 1. Observa el patrón global de este lienzo.\n> 2. Mapea este problema corporativo a un sistema físico o biológico (Gestalt).\n> 3. Devuelve la solución topológica abstracta en un Hash Ejecutivo de 50 palabras.",
+      "x": 615,
+      "y": 600,
+      "width": 450,
+      "height": 280,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-1",
+      "fromNode": "col-achieved",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Sustenta",
+      "color": "6"
+    },
+    {
+      "id": "edge-2",
+      "fromNode": "col-in-progress",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Monitorea",
+      "color": "6"
+    },
+    {
+      "id": "edge-3",
+      "fromNode": "col-escalations",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Afecta a",
+      "color": "6"
+    },
+    {
+      "id": "edge-4",
+      "fromNode": "col-escalations",
+      "fromSide": "bottom",
+      "toNode": "stakeholder-qa",
+      "toSide": "top",
+      "label": "Requiere clarificación en",
+      "color": "6"
+    },
+    {
+      "id": "edge-tension-Plantilla_06_Actualizacion_Estado_Stakeholders.canvas",
+      "fromNode": "oracle-Plantilla_06_Actualizacion_Estado_Stakeholders.canvas",
+      "fromSide": "top",
+      "toNode": "anchor",
+      "toSide": "bottom",
+      "label": "Fricción Excluyente",
+      "color": "1"
+    }
+  ]
+}
